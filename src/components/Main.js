@@ -6,7 +6,7 @@ const Main = (props) => {
   return (
     <main className="block col-2">
         <h2>Products</h2>
-        <div className="row">
+        <div className="parent">
             {products.map((product) =>
             (<Product key={product.id} product={product} onAdd={onAdd}></Product>))}
         </div>

@@ -81,3 +81,14 @@ button.badge{
 .text-right{
   text-align: right;
 }
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+button.check{
+  margin-top: 20px;
+}
